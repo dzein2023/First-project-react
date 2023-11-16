@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 import Navigate from "../components/Navigate";
-import ServicesImge from "../imges/ServicesImge.jpg"
-import Footer from "../components/Footer"
+import ServicesImge from "../imges/ServicesImge.jpg";
+import Footer from "../components/Footer";
 import Ourservices from "../components/Ourservices";
 
 function Services () {
-  return(
+  return (
     <>
       <Navbar/>
     <Navigate
@@ -14,8 +14,8 @@ function Services () {
     title="Services"
     btnClass="abuShow"
     />
-    <Ourservices/>
-    <Footer/> 
+    <Ourservices />
+    <Footer /> 
     </>
   )
   }

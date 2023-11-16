@@ -5,7 +5,7 @@ import PageHome4 from "../imges/PageHome4.jpg"
 import "./Destination.css"
 import DestinationData from "./DestinationData";
 
-const Destination = () =>{
+const Destination = () => {
   return(
   <div className="destination">
     <h1>Goals and Achievements</h1>

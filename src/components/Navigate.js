@@ -1,7 +1,7 @@
 import "./Navigate.css"
 
 function Navigate (props) {
-  return( 
+  return ( 
     <div className={props.cName}>
       <img alt="MainImg"  src={props.mainImg}/>
       <div className="main-text">

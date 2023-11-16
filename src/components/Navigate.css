@@ -58,11 +58,11 @@ width: 100%;
   transition: 0.4s ease;
 }
 
-.main-text .abuShow{
+.main-text .abuShow {
   display: none;
 }
 
-@media screen and (max-width: 555px){
+@media screen and (max-width: 555px) {
   .main-text h1 {
     padding: 10px 20px;
   }

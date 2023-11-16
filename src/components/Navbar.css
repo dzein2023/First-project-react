@@ -1,4 +1,4 @@
-.NavItems{
+.NavItems {
   background-color: rgba(255, 255, 255, 0.918);
   display: flex;
   justify-content: space-between;
@@ -15,13 +15,13 @@
   z-index: 9999;
 }
 
-.NavItems img{
+.NavItems img {
   width: 298.5px;
   margin-left: 25px;
 
 }
 
-.Nav-menu{
+.Nav-menu {
   display: grid;
   grid-template-columns: repeat(8, auto);
   grid-gap: 10px;
@@ -29,7 +29,7 @@
   align-items: center;
 }
 
-.nav-links{
+.nav-links {
   text-decoration: none;
   color: rgb(8, 8, 8);
   font-size: 1.2rem;
@@ -38,27 +38,28 @@
   white-space: nowrap;
 }
 
-.nav-links i{
+.nav-links i {
   padding-right: 6px;
 }
 
-.nav-links:hover{
+.nav-links:hover {
   background-color: #4D7E3E;
   color: white;
   border-radius: 6px;
   transition: all 0.2s ease-in-out;  
 }
 
-.menu-icons{
+.menu-icons {
   display: none;
 
 }
 
 @media screen and (max-width: 850px){
-  .NavItems{
+  .NavItems {
     z-index: 99;
   }
-  .Nav-menu{
+
+  .Nav-menu {
     display: flex;
     flex-direction: column;
   justify-content: flex-start;
@@ -75,28 +76,32 @@
   transition: 0.3s ease-in-out;
   border-radius: 14px;
   }
-  .Nav-menu.active{
+
+  .Nav-menu.active {
     left: 0;
     opacity: 1;
     z-index: -1;
     transition: 0.3s ease-in-out;
   }
-  .nav-links{
+
+  .nav-links {
     display: block;
     width: 100%;
     font-size: 1.2rem;
     padding: 2rem 0;
   }
-  .nav-links:hover{
+
+  .nav-links:hover {
     background: #4D7E3E;
     transition: none;
   }
-  .menu-icons{
+
+  .menu-icons {
     display: block;
     cursor: pointer;
-    
   }
-  .menu-icons i{
+
+  .menu-icons i {
     font-size: 1.2rem;
     color: black;
   }

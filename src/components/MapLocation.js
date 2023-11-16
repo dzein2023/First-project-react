@@ -3,6 +3,7 @@ import "./MapLocation.css"
 function MapLocation () {
   return (
 <div>
+  
 <h1>Our location</h1>
 <div className="map-responsive">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4433.245913819167!2d35.23346572146393!3d31.
@@ -13,6 +14,7 @@ allowfullScreen
 loading="lazy" 
 referrerpolicy="no-referrer-when-downgrade" title="Responsive Google Map" ></iframe>
 </div>
+
 </div>
   )
 }

@@ -4,7 +4,7 @@ import Home from './RoutesPages/Home';
 import About from './RoutesPages/About';
 import Services from './RoutesPages/Services';
 import Contact from './RoutesPages/Contact';
-import {Route,Routes} from "react-router-dom"
+import {Route,Routes} from "react-router-dom";
 
 function App() {
   return (

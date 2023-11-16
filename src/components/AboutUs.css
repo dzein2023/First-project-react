@@ -1,18 +1,18 @@
-.about-cont{
+.about-cont {
   margin: 4rem 6rem;
   text-align: start;
 }
 
-.about-cont h1{
+.about-cont h1 {
   padding-bottom: 1rem;
 }
 
-.about-cont p{
+.about-cont p {
   padding-bottom: 3rem;
   font-size: 1.4rem;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
   .about-cont{
     margin: 4rem 2rem;  
   }

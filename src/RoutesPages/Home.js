@@ -1,12 +1,12 @@
 import Destination from "../components/Destination";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 import Navigate from "../components/Navigate";
 import Ourservices from "../components/Ourservices";
-import BackgroundHome from "../imges/BackgroundHome.jpg"
+import BackgroundHome from "../imges/BackgroundHome.jpg";
 import Footer from "../components/Footer";
 
 function Home () {
-return(
+return (
   <>
     <Navbar/>
     <Navigate
@@ -20,9 +20,9 @@ return(
     url="/Services"
     btnClass="show"
     />
-    <Destination/>
-    <Ourservices/>
-    <Footer/>  
+    <Destination />
+    <Ourservices />
+    <Footer />  
   </>
 );
 }

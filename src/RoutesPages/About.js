@@ -1,11 +1,11 @@
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
 import Navigate from "../components/Navigate";
 import AboutImge from "../imges/AboutImge.jpg"
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 
 function About () {
-  return(
+  return (
     <>
     <Navbar/>
     <Navigate
@@ -14,8 +14,8 @@ function About () {
     title="About Us"
     btnClass="abuShow"
     />
-    <AboutUs/>
-    <Footer/>
+    <AboutUs />
+    <Footer />
   </>
   )
   }

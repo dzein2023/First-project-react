@@ -1,19 +1,19 @@
-.destination{
+.destination {
   margin: 4rem 6rem;
 }
 
-.destination h1{
+.destination h1 {
   font-size: 3rem;
 }
 
-.first-Des{
+.first-Des {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 4.5rem;
 }
 
-.first-Des-Reverse{
+.first-Des-Reverse {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -21,17 +21,17 @@
   margin-top: 4.5rem;
 }
 
-.Des-text{
+.Des-text {
   width: 45%;
   text-align: start;
   font-size: 1.3rem;
 }
 
-.Des-text h2{
+.Des-text h2 {
   padding-bottom: 1rem;
 }
 
-.imges{
+.imges {
   position: relative;
   width: 50%;
   display: flex;
@@ -39,7 +39,7 @@
   z-index: -99;
 }
 
-.imges img{
+.imges img {
   width: 49%;
   height: 350px;
   object-fit: cover;
@@ -47,7 +47,7 @@
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.imges img:nth-child(2){
+.imges img:nth-child(2) {
   position: absolute;
   top: -10.5%;
   right: 0;
@@ -57,24 +57,29 @@
   .destination{
     margin: 4rem 2rem;
   }
+
   .first-Des{
     display: flex;
     flex-direction: column-reverse;
     margin-top: 2.5rem;
   }
+
   .first-Des-Reverse{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     margin-top: 4.5rem;
   }
+
   .Des-text{
     width: 100%;
   }
+
   .imges{
     width: 100%;
     margin: 1.8rem 0;
   }
+  
   .imges img{
     height: 250px;
   }

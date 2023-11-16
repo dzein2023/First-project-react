@@ -16,17 +16,17 @@
   width: 200px;
 }
 
-.top i{
+.top i {
   color: #fff;
   font-size: 2rem;
   margin-left: 1rem;
 }
 
-.top i:hover{
+.top i:hover {
   color: rgb(172, 212, 112);
 }
 
-.bottom{
+.bottom {
   padding-top: 2rem;
   text-align: start;
   display: flex;
@@ -34,25 +34,25 @@
   flex-wrap: wrap;
 }
 
-.bottom div{
+.bottom div {
   display: flex;
   flex-direction: column;
 }
 
-.bottom h4{
+.bottom h4 {
   font-size: 1.7rem;
   padding: 1rem 0 0.8rem 0;
   color: rgb(245, 245, 210);
 }
 
-.bottom a{
+.bottom a {
   text-decoration: none;
   color: #fff;
   padding-bottom: 0.8rem;
   font-size: 1.2rem;
 }
 
-.bottom a:hover{
+.bottom a:hover {
   color: rgb(190, 214, 154);
   transition: 0.3s ease;
   font-size: 22px;
@@ -63,9 +63,11 @@
   .footer{
     padding: 4rem 2rem;
   }
+
   .footer i{
     margin: 1rem 1rem 0 0;
   }
+  
   .bottom div{
     width: 50%;
   }
